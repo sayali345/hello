@@ -1,0 +1,11 @@
+# output.tf
+
+output "instance_ip" {
+  value = aws_instance.debian_ec2.public_ip
+  description = "The public IP address of the instance"
+}
+
+output "instance_id" {
+  value = aws_instance.debian_ec2.id
+  description = "The ID of the instance"
+}

@@ -1,0 +1,32 @@
+execute terraform.sh
+
+AWS ACCESS_KEY GENERATE
+
+
+aws configure
+
+	key - ID
+	key - secret
+	Default Region - us-east-1
+	output - json
+
+mkdir terra & cd terra
+
+create these files.....
+
+main.tf
+variables.tf
+outputs.tf
+
+
+Go to EC2 generate keypair copy the keypair. ..!
+copy to your Debian machine. ......  
+		~/.ssh/demo
+
+chmod 400 demo
+
+terraform init
+terraform plan
+terraform apply
+
+
